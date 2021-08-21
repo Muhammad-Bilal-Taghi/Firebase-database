@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+
+    
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+<script>
+    var firebaseConfig = {
+    apiKey: "AIzaSyAR52CREbROrQoiy2cqehxrubt2Z1D58KI",
+    authDomain: "my-first-web-46f9d.firebaseapp.com",
+    projectId: "my-first-web-46f9d",
+    storageBucket: "my-first-web-46f9d.appspot.com",
+    messagingSenderId: "763454485826",
+    appId: "1:763454485826:web:64d34617f07930a90d44db",
+    measurementId: "G-8S2923KX3F"
+  };
+  
+  firebase.initializeApp(firebaseConfig);
+
+</script>
+   
+</head>
+<body>
+    
+    
+        <div class="container">
+     <input id="name" type="text"  placeholder="Enter Username" required><br>
+     <input id="pass" type="pass"  placeholder="Enter Password" required><br>
+     <button onclick="login()">LOGIN AS ADMIN</button>
+       </div>
+    
+    <script src ="app.js"></script>
+</body>
+</html>
